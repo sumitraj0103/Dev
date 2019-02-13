@@ -1,0 +1,18 @@
+﻿<Window x:Class="InstallNotePad.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InstallNotePad"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        Title="MainWindow" Height="345.425" Width="507.843"
+        ContentRendered="Window_Content">
+    <Window.Background>
+        <ImageBrush ImageSource="Images\BGImage.jpg"></ImageBrush>
+    </Window.Background>
+    <Grid Margin="35,257,30,54">
+        <ProgressBar Minimum="0" Maximum="100" Name="InstallStatus" />
+        <Label x:Name="MyLabel" Content="Label" HorizontalAlignment="Left" Height="48" Margin="2,-183,0,0" VerticalAlignment="Top" Width="187"/>
+    </Grid>
+</Window>
